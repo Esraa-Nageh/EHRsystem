@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using EHRsystem.Data;
+
 namespace EHRsystem
 {
     public class Program
@@ -8,6 +11,14 @@ namespace EHRsystem
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession();
+
+            // Register ApplicationDbContext
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseMySql(
+                    builder.Configuration.GetConnectionString("DefaultConnection"),
+                    new MySqlServerVersion(new Version(8, 0, 36))
+                ));
 
             var app = builder.Build();
 
@@ -15,13 +26,12 @@ namespace EHRsystem
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseRouting();
-
+            app.UseSession(); // Important to use session middleware
             app.UseAuthorization();
 
             app.MapStaticAssets();
