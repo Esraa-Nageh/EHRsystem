@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+9QQtOWOlLREuS6CJcPUxsM3zR+ngBLOCq4Nz49Zqz8=",
+  "Hash": "59IZfxOE3/oNXUrIllgElyK12Ec8uVB9HLvmN3SlNgE=",
   "Source": "EHRsystem",
   "BasePath": "_content/EHRsystem",
   "Mode": "Default",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "D:\\EHRsystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-2cvmjhnln1.gz",
+      "Identity": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-9ywqk34kug.gz",
       "SourceId": "EHRsystem",
       "SourceType": "Computed",
       "ContentRoot": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EHRsystem",
-      "RelativePath": "EHRsystem#[.{fingerprint=2cvmjhnln1}]?.styles.css.gz",
+      "RelativePath": "EHRsystem#[.{fingerprint=9ywqk34kug}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -451,8 +451,8 @@
       "RelatedAsset": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\EHRsystem.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n2c00asmd9",
-      "Integrity": "4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=",
+      "Fingerprint": "wvy0w5npfn",
+      "Integrity": "nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\EHRsystem.styles.css"
@@ -668,12 +668,12 @@
       "OriginalItemSpec": "D:\\EHRsystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-2cvmjhnln1.gz",
+      "Identity": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-9ywqk34kug.gz",
       "SourceId": "EHRsystem",
       "SourceType": "Computed",
       "ContentRoot": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EHRsystem",
-      "RelativePath": "EHRsystem#[.{fingerprint=2cvmjhnln1}]!.bundle.scp.css.gz",
+      "RelativePath": "EHRsystem#[.{fingerprint=9ywqk34kug}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -682,8 +682,8 @@
       "RelatedAsset": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\EHRsystem.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n2c00asmd9",
-      "Integrity": "4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=",
+      "Fingerprint": "wvy0w5npfn",
+      "Integrity": "nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\EHRsystem.bundle.scp.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "2cvmjhnln1",
-      "Integrity": "Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=",
+      "Fingerprint": "9ywqk34kug",
+      "Integrity": "UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\EHRsystem.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "2cvmjhnln1",
-      "Integrity": "Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=",
+      "Fingerprint": "9ywqk34kug",
+      "Integrity": "UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\EHRsystem.bundle.scp.css"
@@ -3026,13 +3026,13 @@
       ]
     },
     {
-      "Route": "EHRsystem.2cvmjhnln1.bundle.scp.css",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-2cvmjhnln1.gz",
+      "Route": "EHRsystem.9ywqk34kug.bundle.scp.css",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-9ywqk34kug.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001834862385"
+          "Quality": "0.001841620626"
         }
       ],
       "ResponseHeaders": [
@@ -3042,15 +3042,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3070,13 +3070,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "W/\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2cvmjhnln1"
+          "Value": "9ywqk34kug"
         },
         {
           "Name": "label",
@@ -3084,12 +3084,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
     {
-      "Route": "EHRsystem.2cvmjhnln1.bundle.scp.css",
+      "Route": "EHRsystem.9ywqk34kug.bundle.scp.css",
       "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\EHRsystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3099,7 +3099,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1127"
         },
         {
           "Name": "Content-Type",
@@ -3107,11 +3107,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3121,7 +3121,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2cvmjhnln1"
+          "Value": "9ywqk34kug"
         },
         {
           "Name": "label",
@@ -3129,13 +3129,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
     {
-      "Route": "EHRsystem.2cvmjhnln1.bundle.scp.css.gz",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-2cvmjhnln1.gz",
+      "Route": "EHRsystem.9ywqk34kug.bundle.scp.css.gz",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-9ywqk34kug.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3144,7 +3144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "Content-Type",
@@ -3152,11 +3152,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3174,7 +3174,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2cvmjhnln1"
+          "Value": "9ywqk34kug"
         },
         {
           "Name": "label",
@@ -3182,18 +3182,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8="
+          "Value": "sha256-nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU="
         }
       ]
     },
     {
-      "Route": "EHRsystem.2cvmjhnln1.styles.css",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-2cvmjhnln1.gz",
+      "Route": "EHRsystem.9ywqk34kug.styles.css",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-9ywqk34kug.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001834862385"
+          "Quality": "0.001841620626"
         }
       ],
       "ResponseHeaders": [
@@ -3203,15 +3203,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3231,13 +3231,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "W/\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2cvmjhnln1"
+          "Value": "9ywqk34kug"
         },
         {
           "Name": "label",
@@ -3245,12 +3245,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
     {
-      "Route": "EHRsystem.2cvmjhnln1.styles.css",
+      "Route": "EHRsystem.9ywqk34kug.styles.css",
       "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\scopedcss\\bundle\\EHRsystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3260,7 +3260,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1127"
         },
         {
           "Name": "Content-Type",
@@ -3268,11 +3268,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3282,7 +3282,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2cvmjhnln1"
+          "Value": "9ywqk34kug"
         },
         {
           "Name": "label",
@@ -3290,13 +3290,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
     {
-      "Route": "EHRsystem.2cvmjhnln1.styles.css.gz",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-2cvmjhnln1.gz",
+      "Route": "EHRsystem.9ywqk34kug.styles.css.gz",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-9ywqk34kug.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3305,7 +3305,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "Content-Type",
@@ -3313,11 +3313,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3335,7 +3335,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2cvmjhnln1"
+          "Value": "9ywqk34kug"
         },
         {
           "Name": "label",
@@ -3343,18 +3343,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8="
+          "Value": "sha256-nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU="
         }
       ]
     },
     {
       "Route": "EHRsystem.bundle.scp.css",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-2cvmjhnln1.gz",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-9ywqk34kug.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001834862385"
+          "Quality": "0.001841620626"
         }
       ],
       "ResponseHeaders": [
@@ -3364,15 +3364,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3392,13 +3392,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "W/\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
@@ -3413,7 +3413,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1127"
         },
         {
           "Name": "Content-Type",
@@ -3421,11 +3421,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3435,13 +3435,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
     {
       "Route": "EHRsystem.bundle.scp.css.gz",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-2cvmjhnln1.gz",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\jaz93u58mb-9ywqk34kug.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3450,7 +3450,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "Content-Type",
@@ -3458,11 +3458,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3480,18 +3480,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8="
+          "Value": "sha256-nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU="
         }
       ]
     },
     {
       "Route": "EHRsystem.styles.css",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-2cvmjhnln1.gz",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-9ywqk34kug.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001834862385"
+          "Quality": "0.001841620626"
         }
       ],
       "ResponseHeaders": [
@@ -3501,15 +3501,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3529,13 +3529,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "W/\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
@@ -3550,7 +3550,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1137"
+          "Value": "1127"
         },
         {
           "Name": "Content-Type",
@@ -3558,11 +3558,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE=\""
+          "Value": "\"UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3572,13 +3572,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Is+sxln+4zIN/tVLodFl1gh/vqCSKi9eFp3qX+5xbuE="
+          "Value": "sha256-UenqgLpkFiI1UwEB3WJL73KTznOeB7YeIK/jjgI17Ns="
         }
       ]
     },
     {
       "Route": "EHRsystem.styles.css.gz",
-      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-2cvmjhnln1.gz",
+      "AssetFile": "D:\\EHRsystem\\obj\\Debug\\net9.0\\compressed\\bg27nk4ln7-9ywqk34kug.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3587,7 +3587,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "544"
+          "Value": "542"
         },
         {
           "Name": "Content-Type",
@@ -3595,11 +3595,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8=\""
+          "Value": "\"nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 23:11:44 GMT"
+          "Value": "Tue, 29 Apr 2025 17:11:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3617,7 +3617,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4RoF8VeH5wHs0nnHtfpGeA1xKRw3Y8U7jivaNeVmtt8="
+          "Value": "sha256-nLQTZq2k0u0JIBor2LQpjmQPD3NQ9XNDaBQaxNY3XWU="
         }
       ]
     },

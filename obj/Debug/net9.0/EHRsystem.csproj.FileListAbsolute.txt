@@ -1,5 +1,8 @@
 D:\EHRsystem\bin\Debug\net9.0\appsettings.Development.json
 D:\EHRsystem\bin\Debug\net9.0\appsettings.json
+D:\EHRsystem\bin\Debug\net9.0\EHRsystem\appsettings.Development.json
+D:\EHRsystem\bin\Debug\net9.0\EHRsystem\appsettings.json
+D:\EHRsystem\bin\Debug\net9.0\EHRsystem\Properties\launchSettings.json
 D:\EHRsystem\bin\Debug\net9.0\EHRsystem.staticwebassets.runtime.json
 D:\EHRsystem\bin\Debug\net9.0\EHRsystem.staticwebassets.endpoints.json
 D:\EHRsystem\bin\Debug\net9.0\EHRsystem.exe
@@ -114,7 +117,7 @@ D:\EHRsystem\obj\Debug\net9.0\EHRsystem.MvcApplicationPartsAssemblyInfo.cache
 D:\EHRsystem\obj\Debug\net9.0\EHRsystem.RazorAssemblyInfo.cache
 D:\EHRsystem\obj\Debug\net9.0\EHRsystem.RazorAssemblyInfo.cs
 D:\EHRsystem\obj\Debug\net9.0\EHRsystem.sourcelink.json
-D:\EHRsystem\obj\Debug\net9.0\scopedcss\EHRsystem\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\EHRsystem\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\EHRsystem\obj\Debug\net9.0\scopedcss\bundle\EHRsystem.styles.css
 D:\EHRsystem\obj\Debug\net9.0\scopedcss\projectbundle\EHRsystem.bundle.scp.css
 D:\EHRsystem\obj\Debug\net9.0\compressed\fk5esovnnx-b9sayid5wm.gz
@@ -179,8 +182,8 @@ D:\EHRsystem\obj\Debug\net9.0\compressed\d85i2kbwuq-2z0ns9nrw6.gz
 D:\EHRsystem\obj\Debug\net9.0\compressed\pgehjiqlai-muycvpuwrr.gz
 D:\EHRsystem\obj\Debug\net9.0\compressed\azssaxfe71-87fc7y1x7t.gz
 D:\EHRsystem\obj\Debug\net9.0\compressed\mpnbulkk5a-mlv21k5csn.gz
-D:\EHRsystem\obj\Debug\net9.0\compressed\bg27nk4ln7-2cvmjhnln1.gz
-D:\EHRsystem\obj\Debug\net9.0\compressed\jaz93u58mb-2cvmjhnln1.gz
+D:\EHRsystem\obj\Debug\net9.0\compressed\bg27nk4ln7-9ywqk34kug.gz
+D:\EHRsystem\obj\Debug\net9.0\compressed\jaz93u58mb-9ywqk34kug.gz
 D:\EHRsystem\obj\Debug\net9.0\staticwebassets.build.json
 D:\EHRsystem\obj\Debug\net9.0\staticwebassets.development.json
 D:\EHRsystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json

@@ -28,98 +28,98 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/EHRsystem/EHRsystem/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
+[D:/EHRsystem/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXEFjY291bnRcUmVnaXN0ZXIuY3NodG1s
+[D:/EHRsystem/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Admin/ManageUsers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXEFkbWluXE1hbmFnZVVzZXJzLmNzaHRtbA==
+[D:/EHRsystem/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Appointment/Book.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXEFwcG9pbnRtZW50XEJvb2suY3NodG1s
+[D:/EHRsystem/Views/Appointment/Book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcQm9vay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Appointment/Manage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXEFwcG9pbnRtZW50XE1hbmFnZS5jc2h0bWw=
+[D:/EHRsystem/Views/Appointment/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcTWFuYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Doctor/Appointments.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXERvY3RvclxBcHBvaW50bWVudHMuY3NodG1s
+[D:/EHRsystem/Views/Doctor/Appointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFwcG9pbnRtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Doctor/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXERvY3RvclxEYXNoYm9hcmQuY3NodG1s
+[D:/EHRsystem/Views/Doctor/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Doctor/PatientHistory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXERvY3RvclxQYXRpZW50SGlzdG9yeS5jc2h0bWw=
+[D:/EHRsystem/Views/Doctor/PatientHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+[D:/EHRsystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+[D:/EHRsystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/MedicalRecord/UploadFile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXE1lZGljYWxSZWNvcmRcVXBsb2FkRmlsZS5jc2h0bWw=
+[D:/EHRsystem/Views/MedicalRecord/UploadFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFJlY29yZFxVcGxvYWRGaWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/MedicalRecord/ViewFiles.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXE1lZGljYWxSZWNvcmRcVmlld0ZpbGVzLmNzaHRtbA==
+[D:/EHRsystem/Views/MedicalRecord/ViewFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFJlY29yZFxWaWV3RmlsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Patient/BookAppointment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFBhdGllbnRcQm9va0FwcG9pbnRtZW50LmNzaHRtbA==
+[D:/EHRsystem/Views/Patient/BookAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxCb29rQXBwb2ludG1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Patient/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFBhdGllbnRcRGFzaGJvYXJkLmNzaHRtbA==
+[D:/EHRsystem/Views/Patient/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Patient/MedicalRecords.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFBhdGllbnRcTWVkaWNhbFJlY29yZHMuY3NodG1s
+[D:/EHRsystem/Views/Patient/MedicalRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxNZWRpY2FsUmVjb3Jkcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Patient/SearchDoctor.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFBhdGllbnRcU2VhcmNoRG9jdG9yLmNzaHRtbA==
+[D:/EHRsystem/Views/Patient/SearchDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxTZWFyY2hEb2N0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Prediction/Predict.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFByZWRpY3Rpb25cUHJlZGljdC5jc2h0bWw=
+[D:/EHRsystem/Views/Prediction/Predict.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGljdGlvblxQcmVkaWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Prediction/PredictionResult.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFByZWRpY3Rpb25cUHJlZGljdGlvblJlc3VsdC5jc2h0bWw=
+[D:/EHRsystem/Views/Prediction/PredictionResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGljdGlvblxQcmVkaWN0aW9uUmVzdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Prescription/AddPrescription.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFByZXNjcmlwdGlvblxBZGRQcmVzY3JpcHRpb24uY3NodG1s
+[D:/EHRsystem/Views/Prescription/AddPrescription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc2NyaXB0aW9uXEFkZFByZXNjcmlwdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+[D:/EHRsystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+[D:/EHRsystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+[D:/EHRsystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+[D:/EHRsystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/EHRsystem/EHRsystem/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = RUhSc3lzdGVtXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-j9co6e0801
+[D:/EHRsystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ve0xj6ds4f
