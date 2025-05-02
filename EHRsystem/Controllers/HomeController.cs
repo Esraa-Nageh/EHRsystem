@@ -6,7 +6,8 @@ namespace UnifiedEHRSystem.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Welcome to Unified EHR System! Go to /Account/Register to start.");
+            // Automatically redirect to the Register page
+            return RedirectToAction("Register", "Account");
         }
     }
 }

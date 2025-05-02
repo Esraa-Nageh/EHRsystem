@@ -1,14 +1,24 @@
-namespace EHRsystem.Models.Entities
+using System;
+using System.ComponentModel.DataAnnotations;
 
+namespace EHRsystem.Models.Entities
 {
     public class Appointment
     {
         public int Id { get; set; }
-        public int PatientId { get; set; }
-        public Patient Patient { get; set; }
+
+        [Required(ErrorMessage = "Doctor ID is required.")]
         public int DoctorId { get; set; }
-        public Doctor Doctor { get; set; }
+
+        [Required(ErrorMessage = "Appointment date is required.")]
+        [DataType(DataType.DateTime)]
         public DateTime AppointmentDate { get; set; }
-        public string Status { get; set; } // Scheduled, Completed, Cancelled
+
+        [Required(ErrorMessage = "Reason is required.")]
+        public string Reason { get; set; } = string.Empty;
+
+        public string Status { get; set; } = "Pending";
+
+        public int PatientId { get; set; }
     }
 }

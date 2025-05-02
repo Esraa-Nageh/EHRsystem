@@ -23,44 +23,54 @@ namespace EHRsystem.Data
         {
             base.OnModelCreating(modelBuilder);
 
+            // Appointment -> Doctor (NO navigation property in Appointment class)
             modelBuilder.Entity<Appointment>()
-                .HasOne(a => a.Patient)
-                .WithMany(p => p.Appointments)
-                .HasForeignKey(a => a.PatientId);
-
-            modelBuilder.Entity<Appointment>()
-                .HasOne(a => a.Doctor)
-                .WithMany(d => d.Appointments)
+                .HasOne<Doctor>() // no a.Doctor property
+                .WithMany()
                 .HasForeignKey(a => a.DoctorId);
 
+            // Appointment -> Patient (optional, based on your model)
+            modelBuilder.Entity<Appointment>()
+                .HasOne<User>()
+                .WithMany()
+                .HasForeignKey(a => a.PatientId);
+
+            // MedicalFile -> Patient
             modelBuilder.Entity<MedicalFile>()
                 .HasOne(m => m.Patient)
                 .WithMany(p => p.MedicalFiles)
                 .HasForeignKey(m => m.PatientId);
 
+            // MedicalFile -> Doctor (no navigation needed)
             modelBuilder.Entity<MedicalFile>()
                 .HasOne(m => m.Doctor)
                 .WithMany()
                 .HasForeignKey(m => m.DoctorId);
 
+            // Prescription -> Patient
             modelBuilder.Entity<Prescription>()
                 .HasOne(p => p.Patient)
                 .WithMany()
                 .HasForeignKey(p => p.PatientId);
 
+            // Prescription -> Doctor
             modelBuilder.Entity<Prescription>()
                 .HasOne(p => p.Doctor)
                 .WithMany(d => d.Prescriptions)
                 .HasForeignKey(p => p.DoctorId);
 
+            // PharmacyRecommendation -> Prescription
             modelBuilder.Entity<PharmacyRecommendation>()
                 .HasOne(r => r.Prescription)
                 .WithMany()
                 .HasForeignKey(r => r.PrescriptionId);
+
+            // User Role discriminator
             modelBuilder.Entity<User>()
-                .HasDiscriminator<string>("Role")
-                .HasValue<Patient>("Patient")
-                .HasValue<Doctor>("Doctor");
+    .HasDiscriminator<string>("Role")
+    .HasValue<Doctor>("Doctor")
+    .HasValue<Patient>("Patient")
+    .HasValue<User>("Admin");
 
         }
     }

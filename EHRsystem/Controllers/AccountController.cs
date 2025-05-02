@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using EHRsystem.Data;
 using EHRsystem.Models.Base;
 using EHRsystem.ViewModels;
-using Microsoft.AspNetCore.Http;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -18,8 +18,7 @@ namespace EHRsystem.Controllers
             _context = context;
         }
 
-        // ====== Register ======
-
+        // ===== Register =====
         [HttpGet]
         public IActionResult Register()
         {
@@ -27,25 +26,24 @@ namespace EHRsystem.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                // Check if email already exists
-                var existingUser = _context.Users.FirstOrDefault(u => u.Email == model.Email);
-                if (existingUser != null)
+                // Check if email exists
+                var exists = _context.Users.Any(u => u.Email == model.Email);
+                if (exists)
                 {
-                    ModelState.AddModelError(string.Empty, "Email already registered.");
+                    ModelState.AddModelError("", "Email already registered.");
                     return View(model);
                 }
-
-                var hashedPassword = HashPassword(model.Password);
 
                 var user = new User
                 {
                     Name = model.Name,
                     Email = model.Email,
-                    PasswordHash = hashedPassword,
+                    PasswordHash = HashPassword(model.Password),
                     Role = model.Role
                 };
 
@@ -54,11 +52,11 @@ namespace EHRsystem.Controllers
 
                 return RedirectToAction("Login", "Account");
             }
+
             return View(model);
         }
 
-        // ====== Login ======
-
+        // ===== Login =====
         [HttpGet]
         public IActionResult Login()
         {
@@ -66,58 +64,52 @@ namespace EHRsystem.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
                 var user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
-
                 if (user != null && VerifyPassword(model.Password, user.PasswordHash))
                 {
-                    // Save user info in session
                     HttpContext.Session.SetInt32("UserId", user.Id);
                     HttpContext.Session.SetString("UserName", user.Name);
                     HttpContext.Session.SetString("UserRole", user.Role);
 
-                    // Redirect based on Role
-                    if (user.Role == "Doctor")
-                        return RedirectToAction("Dashboard", "Doctor");
-                    else if (user.Role == "Patient")
-                        return RedirectToAction("Dashboard", "Patient");
-                    else
-                        return RedirectToAction("Index", "Home"); // Default
+                    return user.Role switch
+                    {
+                        "Doctor" => RedirectToAction("Dashboard", "Doctor"),
+                        "Patient" => RedirectToAction("Dashboard", "Patient"),
+                        "Admin" => RedirectToAction("ManageUsers", "Admin"),
+                        _ => RedirectToAction("Index", "Home")
+                    };
                 }
 
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                ModelState.AddModelError("", "Invalid email or password.");
             }
+
             return View(model);
         }
 
-        // ====== Logout ======
-
-        [HttpGet]
+        // ===== Logout =====
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Login", "Account");
         }
 
-        // ====== Helper methods ======
-
+        // ===== Hashing =====
         private string HashPassword(string password)
         {
-            using (var sha256 = SHA256.Create())
-            {
-                var bytes = Encoding.UTF8.GetBytes(password);
-                var hash = sha256.ComputeHash(bytes);
-                return Convert.ToBase64String(hash);
-            }
+            using var sha256 = SHA256.Create();
+            var bytes = Encoding.UTF8.GetBytes(password);
+            var hash = sha256.ComputeHash(bytes);
+            return Convert.ToBase64String(hash);
         }
 
-        private bool VerifyPassword(string enteredPassword, string storedHash)
+        private bool VerifyPassword(string entered, string storedHash)
         {
-            var hashOfInput = HashPassword(enteredPassword);
-            return hashOfInput == storedHash;
+            return HashPassword(entered) == storedHash;
         }
     }
 }

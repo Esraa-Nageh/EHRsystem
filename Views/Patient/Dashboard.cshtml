@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Patient Dashboard";
+    var userName = ViewBag.UserName ?? "Patient";
+}
+
+<div class="container mt-5">
+    <h2>Welcome, @userName!</h2>
+    <p class="lead">This is your personal patient space.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="card border-success">
+                <div class="card-body">
+                    <h5 class="card-title">Book Appointment</h5>
+                    <p class="card-text">Schedule a visit with a doctor.</p>
+                    <a href="/Patient/BookAppointment" class="btn btn-success btn-block">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card border-info">
+                <div class="card-body">
+                    <h5 class="card-title">Medical Records</h5>
+                    <p class="card-text">View your uploaded medical history.</p>
+                    <a href="/Patient/MedicalRecords" class="btn btn-info btn-block">View</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Search Doctor</h5>

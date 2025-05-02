@@ -11,9 +11,9 @@ namespace EHRsystem
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddSession(); // ✅ Session support
+            builder.Services.AddSession(); // ✅ Enable Session
 
-            // Register ApplicationDbContext
+            // Register DbContext with MySQL
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseMySql(
                     builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -30,11 +30,11 @@ namespace EHRsystem
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();   // ✅ Serve wwwroot files
+            app.UseStaticFiles();       // ✅ For wwwroot files (css, js, etc)
             app.UseRouting();
 
-            app.UseSession();       // ✅ Use session
-            app.UseAuthorization();
+            app.UseSession();           // ✅ Enable session middleware
+            app.UseAuthorization();     // ✅ Handle user access
 
             app.MapControllerRoute(
                 name: "default",

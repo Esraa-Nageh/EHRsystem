@@ -1,0 +1,43 @@
+@model EHRsystem.Models.Entities.Appointment
+
+@{
+    ViewData["Title"] = "Book Appointment";
+    var doctors = ViewBag.Doctors as List<dynamic> ?? new List<dynamic>();
+}
+
+<div class="container mt-5">
+    <h2>Book Appointment</h2>
+
+    <form asp-action="BookAppointment" method="post">
+        <div class="form-group">
+            <label for="DoctorId">Choose Doctor</label>
+            <select asp-for="DoctorId" class="form-control" required>
+                <option value="">-- Select a doctor --</option>
+                @foreach (var d in doctors)
+                {
+                    <option value="@d.Id">@d.Name — @d.Specialty (@d.Location)</option>
+                }
+            </select>
+            <span asp-validation-for="DoctorId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="AppointmentDate"></label>
+            <input asp-for="AppointmentDate" type="datetime-local" class="form-control" required />
+            <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Reason"></label>
+            <textarea asp-for="Reason" class="form-control" rows="3" placeholder="Describe your symptoms or reason..."></textarea>
+            <span asp-validation-for="Reason" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success">Submit</button>
+        <a asp-action="Dashboard" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
